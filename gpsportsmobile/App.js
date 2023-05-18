@@ -19,7 +19,7 @@ export default function App() {
           translucent
         /> 
 
-        {fontsLoaded ? <SignIn /> : <Loading />}
+        {fontsLoaded ? <SignIn/> : <Loading/>}
     </NativeBaseProvider>
   );
 }
